@@ -139,11 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Hak.cpp" />
-    <ClCompile Include="Large Factorials.cpp" />
+    <ClCompile Include="City.cpp" />
+    <ClCompile Include="Clue.cpp" />
+    <ClCompile Include="funcs.cpp" />
+    <ClCompile Include="Puzzle.cpp" />
+    <ClCompile Include="Skycrappers.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="hak.h" />
+    <ClInclude Include="City.h" />
+    <ClInclude Include="Clue.h" />
+    <ClInclude Include="Funcs.h" />
+    <ClInclude Include="Puzzle.h" />
+    <ClInclude Include="source.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
